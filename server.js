@@ -12,7 +12,11 @@ app.set('view engine','ejs')
 
 app.get('/', function(req,res){
     res.render('index',{
-        foo:'bar'
+        people:[
+            {name:"Sandeep"},
+            {name:"Dave"},
+            {name:"Jerry"}
+        ]
     });
 })
 

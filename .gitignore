@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/
+*.icloud
+npm-debug.log
+.vscode/
+.idea/
+.prettierignore
